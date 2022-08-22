@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'org.example'
+group 'com.jentity'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -10,11 +10,6 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.postgresql:postgresql:42.4.2'
-
-    implementation project(":jentity-schema")
-    implementation project(":jentity-core")
-
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }

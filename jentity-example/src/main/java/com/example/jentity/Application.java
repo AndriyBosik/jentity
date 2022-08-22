@@ -1,8 +1,8 @@
 package com.example.jentity;
 
-import com.jentity.orm.JEntity;
-import com.jentity.orm.configuration.impl.ApplicationPropertiesStartupConfigurator;
-import com.jentity.orm.context.JEntityContext;
+import com.jentity.core.JEntity;
+import com.jentity.core.configuration.impl.ApplicationPropertiesStartupConfigurator;
+import com.jentity.core.context.JEntityContext;
 
 public class Application {
   public static void main(String[] args) {
