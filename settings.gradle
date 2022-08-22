@@ -1,4 +1,5 @@
 rootProject.name = 'JEntity'
 include 'jentity-example'
 include 'jentity-core'
+include 'jentity-schema'
 
